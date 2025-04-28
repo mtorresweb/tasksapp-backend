@@ -12,6 +12,9 @@ import userRoutes from "./routes/user.routes.js";
 
 const app = express();
 
+// Enable trust proxy - add this line before other middleware
+app.set("trust proxy", 1);
+
 // Security configuration
 app.use(
   cors({
