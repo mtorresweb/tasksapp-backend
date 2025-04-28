@@ -1,7 +1,6 @@
 import app from "./app.js";
 import "express-async-errors";
 import sequelize from "./database/connection.js";
-import "dotenv/config";
 
 //Table models (sequelize)
 import "./models/project.model.js";

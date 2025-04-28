@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { getReasonPhrase } from "http-status-codes";
 
 export const errorHandler = (err, req, res, next) => {
